@@ -1,0 +1,68 @@
+/* AdminSidebar.css */
+
+.app-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #2d2f39;
+    color: #fff;
+    padding-top: 60px; /* If there's a top navbar, adjust this accordingly */
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  
+  .brand-link {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .brand-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin: 4px 0;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    background-color: #3c3f4a;
+    color: #fff;
+  }
+  
+  .nav-icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .app-main {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
